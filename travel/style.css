@@ -200,6 +200,9 @@ h1 {
     line-height: 2.9rem;
 }
 /*----------------------------*/
+.destinations {
+    height: 200rem;
+}
 /*----------------------------*/
 .style_h2 {
     display: flex;
