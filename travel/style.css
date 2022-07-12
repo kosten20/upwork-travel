@@ -253,6 +253,8 @@ figcaption {
   /* General styles */
   .sim-slider {
     position: relative;
+    width: 252rem;
+    height: 104.2rem;
   }
   
   .sim-slider-list {
