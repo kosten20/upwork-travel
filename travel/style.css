@@ -354,7 +354,7 @@ article img {
     display: flex;
     align-items: center;
 }
-article h1 {
+article h2 {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
