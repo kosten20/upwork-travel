@@ -293,14 +293,14 @@ figcaption {
     left: 10px;
     top: 40%;
     display: block;
-    background: url("sim-arrow-left.png") no-repeat;
+    background: url("img/sim-arrow-left.svg") no-repeat;
   }
   
   div.sim-slider-arrow-right {
     right: 10px;
     top: 40%;
     display: block;
-    background: url("sim-arrow-right.png") no-repeat;
+    background: url("img/sim-arrow-right.svg") no-repeat;
   }
   
   div.sim-slider-arrow-left:hover {
