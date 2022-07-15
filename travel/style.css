@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 :root {
-    font-size: 0.625em;
+    font-size: 62.5%;
 }
 #header {
     width: 100%;
@@ -56,7 +56,7 @@ body {
 nav {
     width: 52.7rem;
 }
-ul {
+#list-menu {
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
@@ -141,7 +141,7 @@ a {
 .preview {
     width: 90%;
     margin-top: 3.2rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
 }
 h1 {
     font-family: 'Aleo';
@@ -164,7 +164,7 @@ h1 {
     color: #FFFFFF;
 }
 .window {
-    margin-left: 12rem;
+    margin-left: 10rem;
 
     width: 89.2rem;
     height: 9.5rem;
@@ -200,8 +200,9 @@ h1 {
     line-height: 2.9rem;
 }
 /*----------------------------*/
-#destinations {
-    height: 200rem;
+#slid_center {
+    display: flex;
+    justify-content: center;
 }
 /*----------------------------*/
 .style_h2 {
@@ -224,10 +225,14 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 figure img {
     width: 10rem;
     height: 10rem;
-    transform: translateX(50%);
 }
 figcaption {
     font-family: 'Aleo';
@@ -250,14 +255,16 @@ figcaption {
 }
 /*---------------------------*/
 .img_slider {
+    display: block;
+    height: 100%;
     width: 100%;
   }
   
   /* General styles */
   .sim-slider {
+    height: 122vh;
+    width: 78vw;
     position: relative;
-    width: 252rem;
-    height: 104.2rem;
   }
   
   .sim-slider-list {
@@ -281,8 +288,8 @@ figcaption {
   /* Navigation item styles */
   div.sim-slider-arrow-left,
   div.sim-slider-arrow-right {
-    width: 22px;
-    height: 40px;
+    width: 38px;
+    height: 56px;
     position: absolute;
     cursor: pointer;
     opacity: 0.6;
@@ -291,16 +298,16 @@ figcaption {
   
   div.sim-slider-arrow-left {
     left: 10px;
-    top: 40%;
+    top: 50%;
     display: block;
-    background: url("img/sim-arrow-left.svg") no-repeat;
+    background: url("img/ep_arrow-up-bold-left.svg") no-repeat;
   }
   
   div.sim-slider-arrow-right {
     right: 10px;
-    top: 40%;
+    top: 50%;
     display: block;
-    background: url("img/sim-arrow-right.svg") no-repeat;
+    background: url("img/ep_arrow-up-bold-right.svg") no-repeat;
   }
   
   div.sim-slider-arrow-left:hover {
@@ -316,19 +323,18 @@ figcaption {
     height: auto;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -30px;
     z-index: 3;
     text-align: center;
   }
   
-  span.sim-dot {
-    width: 10px;
-    height: 10px;
-    margin: 5px 7px;
+   span.sim-dot {
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
     padding: 0;
     display: inline-block;
-    background-color: #BBB;
-    border-radius: 5px;
+    border-radius: 50%;
     cursor: pointer;
   }
 /*---------------------------*/
@@ -348,6 +354,8 @@ article:first-child {
 article img {
     filter: drop-shadow(0px 4px 4px #0D606F);
     border-radius: 16px;
+    width: 40rem;
+    height: 25rem;
 }
 .box_img {
     margin-right: 4rem;
